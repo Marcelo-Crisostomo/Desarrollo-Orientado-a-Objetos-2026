@@ -1,0 +1,18 @@
+.root{
+    -fx-background-color: #b8fad1; /*color del fondo*/
+}
+/*Estilo de los titulos o Label*/
+.Label{
+    -fx-font-size:24px; /*largo del texto*/
+    -fx-font-weight: bold; /*ancho del texto*/
+}
+/*Botones*/
+.button{
+    -fx-background-color: #2563EB; /*color del boton*/
+    -fx-texto-fill:white; /*color del texto dentro del boton */
+    -fx-padding:10px 20px; /*espacio interior entre  la letra sobre el borde del boton (el primer numero es arriba y abajo el segundo es de izquierda y derecha)*/
+}
+/*Boton psudoclase:hove (es para cuado haya algun cambio cuando el cursor este por encima del boton SIN hacer click)*/
+.button:hover{
+    -fx-background-color: #0e3078;
+}
